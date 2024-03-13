@@ -1,0 +1,44 @@
+{
+    "calendar_event": {
+        "prompts": ["set a calendar event", "put a calendar event", "add a calendar event"],
+        "response": "Sure thing, I've set an event on your calendar.",
+        "prefixes": ["can you", "would you mind", "could you", "can you please", "please", "do you mind"],
+        "suffixes": ["for tommorrow", "at tommorrow", "tommorrow", "for the $(INT) of $(STRING)", "at the $(INT) of $(STRING)", "when it is the $(INT) of $(STRING)", "for the $(INT)", "at the $(INT)", "when it is the $(INT)", "for $(STRING) $(INT) of $(INT)", "at $(STRING) $(INT) of $(INT)", "when it is $(STRING) $(INT) of $(INT)"]
+    },
+    "contact_add": {
+        "prompts": ["add a contact called $(STRING)", "add $(STRING) to my contacts", "add to my contacts $(STRING)", "put $(STRING) in my contacts", "add $(STRING) to the contacts", "add to the contacts $(STRING)", "put $(STRING) in the contacts"],
+        "response": "Okay, I've added that person to your contacts.",
+        "prefixes": ["can you", "would you mind", "could you", "can you please", "please", "do you mind"],
+        "suffixes": ["email is $(EMAIL)", "phone number is $(INT)", "phone is $(INT)", "thanks", "thank you", "email is $(EMAIL) and phone number is $(INT)", "email is $(EMAIL) and phone is $(INT)"]
+    },
+    "package_manager_open": {
+        "prompts": ["open my package manager", "open my software installer", "open the package manager", "open my package management tool", "open my package management", "open the package management"],
+        "response": "Okay, I've opened your system's package manager.",
+        "prefixes": ["can you", "would you mind", "could you", "can you please", "please", "do you mind"],
+        "suffixes": ["thanks", "thank you"]
+    },
+    "app_open": {
+        "prompts": ["launch $(STRING)", "open $(STRING)", "launch the app $(STRING)", "open the app $(STRING)", "launch app $(STRING)", "open app $(STRING)", "launch the $(STRING) app", "open the $(STRING) app"],
+        "response": "Alright, I've opened that app for you.",
+        "prefixes": ["can you", "would you mind", "could you", "can you please", "please", "do you mind"],
+        "suffixes": ["thanks", "thank you"]
+    },
+    "web_open": {
+        "prompts": ["what is $(STRING)", "where is $(STRING)", "how is $(STRING)", "how does $(STRING)", "can you tell me what $(STRING) is", "open app $(STRING)", "how does $(STRING) work", "what is $(STRING) app", "how $(STRING) works", "can you $(STRING)"],
+        "response": "Sure, I found this on the web.",
+        "prefixes": ["can you tell me", "could you tell me", "tell me", "please tell me", "would you tell me", "would you mind telling"],
+        "suffixes": ["thanks", "thank you"]
+    },
+    "time": {
+        "prompts": ["what time it is", "what time is it", "what is the time", "time right now", "the time", "the time now"],
+        "response": "The time is $(INT).",
+        "prefixes": ["can you tell me", "could you tell me", "tell me", "please tell me", "would you tell me", "would you mind telling"],
+        "suffixes": ["thanks", "thank you"]
+    },
+    "song_play": {
+        "prompts": ["play $(STRING)", "play the song $(STRING)", "play song $(STRING)", "play the music $(STRING)", "play some music", "playing $(STRING)"],
+        "response": "Okay, I'll play that song on YouTube for you.",
+        "prefixes": ["can you", "could you", "please", "would you", "would you mind"],
+        "suffixes": ["thanks", "thank you", "by $(STRING)", "composed by $(STRING)", "sung by $(STRING)"]
+    }
+}
